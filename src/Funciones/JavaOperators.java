@@ -120,7 +120,29 @@ public class JavaOperators {
 
 
 
+        //JAVA LOGICAL OPERATORS
 
+
+        /*  You can also test for true or false values with logical operators
+
+        Logical operators are used to determine the logical between variables or values:
+
+         */
+
+        //&& Logical and  - Returns true if both statements are true , example:
+
+        System.out.println(e > 3 && e < 10); //returns true because 5 is greater than 3 AND 5 is less than 10
+
+        // || Logical or Returns true if one of the statements is true , example:
+
+        System.out.println(e < 3 || e <10); // returns true because 5 is greater than 3 in this case is false but 5 is less than 10 in this case is true ,
+        // and the rule is if one of the statements is true return true
+
+        // ! Logical not , reverse the result , return false if the result is true
+        /*El operador de negación evalúa un solo operando con valor lógico y devuelve como resultado el valor de este invertido.
+         Es decir, si el operando tiene valor true este operador devolverá false y viceversa.*/
+
+        System.out.println(!(e > 3 && e <10)); // Returns false because ! (not) is used to reverse the result
 
 
     }
