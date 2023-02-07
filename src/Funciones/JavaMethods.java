@@ -147,7 +147,7 @@ public class JavaMethods {
 
           static void myMethod() {
            System.out.println("I just got executed");
-          }
+
 
           public static void myMethod main (String [] args) {
           myMethod(); //Call a method
@@ -179,3 +179,4 @@ public class JavaMethods {
 
 
 }
+//
