@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class IfElse {
     public static void main(String[] args) {
-        //OPENBOOTCAMP CLASE 3 IF Y ELSE
+        //OPENBOOTCAMP CLASE 4 IF Y ELSE
 
 
         //el if ya sabemos que sirve para hacer una condicion que siempre sera evaluada primera if=(si) , y en caso que el if no se cumpla el siempre va a entrar al else

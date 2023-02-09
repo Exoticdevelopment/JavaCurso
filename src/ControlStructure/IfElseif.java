@@ -3,6 +3,8 @@ package ControlStructure;
 public class IfElseif {
 
     public static void main(String[] args) {
+
+        //OPENBOOTCAMP CLASE 4 ELSEIF
         String dia = "Lunes";
 
         boolean resultado = dia.equals("Lunes"); //Aqui estamos comparando String en JAVA
