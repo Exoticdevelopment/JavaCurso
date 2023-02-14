@@ -20,7 +20,8 @@ public class While {
 
 
         while (contador < 10) {
-            contador++; ; //Aqui hacemos que el bucle no sea infinito , porque es un incremento , si no ponemos esto el bucle seria infinito
+            contador++;
+            ; //Aqui hacemos que el bucle no sea infinito , porque es un incremento , si no ponemos esto el bucle seria infinito
 
             //Si queremos romper un bucle lo hacemos de la siguiente manera!
 
@@ -30,11 +31,10 @@ public class While {
 
             }
 
-            if (contador == 7){
+            if (contador == 7) {
                 System.out.println("Adios");
                 break; //Asi interumpimos o salimos de un bucle
             }
-
 
 
             System.out.println("Hola mundo" + contador);
@@ -47,6 +47,31 @@ public class While {
         }
 
         System.out.println("Sali del bucle yessss");
+
+
+        //W3SCHOOL
+
+
+        /*
+        The while loop loops through a block of code as long as a specified condition
+        is true:
+
+        Syntax
+
+        while (condition){
+        //Code block to be
+        }
+
+        in the example below , the code in the loop will run , over and over again , as long as
+        a variable (i) is less than 5:
+
+        EXAMPLE
+         */
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
 
     }
 }
